@@ -1,0 +1,11 @@
+{
+  "name": "gems",
+  "version": "0.0.1",
+  "description": "Little front end gems",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Reardon <alexreardon@gmail.com>",
+  "license": "MIT"
+}
