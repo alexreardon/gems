@@ -1,0 +1,14 @@
+# editors
+.idea
+.vscode
+
+# library
+node_modules/
+
+# MacOS
+.DS_Store
+
+# logs
+yarn-error.log
+npm-debug.log
+npm-debug.log.*

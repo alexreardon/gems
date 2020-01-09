@@ -3,9 +3,16 @@
   "version": "0.0.1",
   "description": "Little front end gems",
   "main": "readme.md",
+  "config": {
+    "prettier_target": "*.md **/*.md"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier:check": "yarn prettier --debug-check $npm_package_config_prettier_target",
+    "prettier:write": "yarn prettier --write $npm_package_config_prettier_target"
   },
   "author": "Alex Reardon <alexreardon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }
